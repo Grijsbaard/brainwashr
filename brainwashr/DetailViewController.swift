@@ -10,14 +10,22 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var detailDescriptionLabel: UILabel!
-
+    @IBOutlet weak var promptName: UILabel!
+    @IBOutlet weak var promptMessage: UILabel!
+    @IBOutlet weak var promptDescription: UILabel!
+    
 
     func configureView() {
         // Update the user interface for the detail item.
         if let detail = detailItem {
-            if let label = detailDescriptionLabel {
-                label.text = detail.description
+            if let name = promptName {
+                name.text = detail.name
+            }
+            if let message = promptMessage {
+                message.text = detail.message
+            }
+            if let description = promptDescription {
+                description.text = detail.description
             }
         }
     }
@@ -28,7 +36,7 @@ class DetailViewController: UIViewController {
         configureView()
     }
 
-    var detailItem: NSDate? {
+    var detailItem: Prompt? {
         didSet {
             // Update the view.
             configureView()

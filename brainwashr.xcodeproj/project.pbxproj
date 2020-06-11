@@ -16,6 +16,9 @@
 		22819CA4249156B700DC8AB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22819CA2249156B700DC8AB1 /* LaunchScreen.storyboard */; };
 		22819CAF249156B700DC8AB1 /* brainwashrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CAE249156B700DC8AB1 /* brainwashrTests.swift */; };
 		22819CBA249156B700DC8AB1 /* brainwashrUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CB9249156B700DC8AB1 /* brainwashrUITests.swift */; };
+		22819CC824916BAB00DC8AB1 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CC724916BAB00DC8AB1 /* Prompt.swift */; };
+		22819CCA24916D8C00DC8AB1 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CC924916D8C00DC8AB1 /* Storage.swift */; };
+		22819CCC249176E600DC8AB1 /* PromptUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CCB249176E600DC8AB1 /* PromptUITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		22819CB5249156B700DC8AB1 /* brainwashrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = brainwashrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22819CB9249156B700DC8AB1 /* brainwashrUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = brainwashrUITests.swift; sourceTree = "<group>"; };
 		22819CBB249156B700DC8AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22819CC724916BAB00DC8AB1 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
+		22819CC924916D8C00DC8AB1 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		22819CCB249176E600DC8AB1 /* PromptUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptUITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		22819C89249156B500DC8AB1 = {
 			isa = PBXGroup;
 			children = (
+				22819CC724916BAB00DC8AB1 /* Prompt.swift */,
+				22819CCB249176E600DC8AB1 /* PromptUITableViewCell.swift */,
+				22819CC924916D8C00DC8AB1 /* Storage.swift */,
 				22819C94249156B500DC8AB1 /* brainwashr */,
 				22819CAD249156B700DC8AB1 /* brainwashrTests */,
 				22819CB8249156B700DC8AB1 /* brainwashrUITests */,
@@ -266,6 +275,9 @@
 				22819C98249156B500DC8AB1 /* SceneDelegate.swift in Sources */,
 				22819C9A249156B500DC8AB1 /* MasterViewController.swift in Sources */,
 				22819C9C249156B500DC8AB1 /* DetailViewController.swift in Sources */,
+				22819CC824916BAB00DC8AB1 /* Prompt.swift in Sources */,
+				22819CCA24916D8C00DC8AB1 /* Storage.swift in Sources */,
+				22819CCC249176E600DC8AB1 /* PromptUITableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +460,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = culturedtri.be.brainwashr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +478,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = culturedtri.be.brainwashr;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
