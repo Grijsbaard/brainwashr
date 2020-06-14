@@ -19,6 +19,7 @@
 		22819CC824916BAB00DC8AB1 /* Prompt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CC724916BAB00DC8AB1 /* Prompt.swift */; };
 		22819CCA24916D8C00DC8AB1 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CC924916D8C00DC8AB1 /* Storage.swift */; };
 		22819CCC249176E600DC8AB1 /* PromptUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CCB249176E600DC8AB1 /* PromptUITableViewCell.swift */; };
+		22819CCE2492AC5000DC8AB1 /* AddPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22819CCD2492AC4F00DC8AB1 /* AddPromptViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		22819CC724916BAB00DC8AB1 /* Prompt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prompt.swift; sourceTree = "<group>"; };
 		22819CC924916D8C00DC8AB1 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
 		22819CCB249176E600DC8AB1 /* PromptUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptUITableViewCell.swift; sourceTree = "<group>"; };
+		22819CCD2492AC4F00DC8AB1 /* AddPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPromptViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				22819C95249156B500DC8AB1 /* AppDelegate.swift */,
 				22819C97249156B500DC8AB1 /* SceneDelegate.swift */,
 				22819C99249156B500DC8AB1 /* MasterViewController.swift */,
+				22819CCD2492AC4F00DC8AB1 /* AddPromptViewController.swift */,
 				22819C9B249156B500DC8AB1 /* DetailViewController.swift */,
 				22819C9D249156B500DC8AB1 /* Main.storyboard */,
 				22819CA0249156B700DC8AB1 /* Assets.xcassets */,
@@ -273,6 +276,7 @@
 			files = (
 				22819C96249156B500DC8AB1 /* AppDelegate.swift in Sources */,
 				22819C98249156B500DC8AB1 /* SceneDelegate.swift in Sources */,
+				22819CCE2492AC5000DC8AB1 /* AddPromptViewController.swift in Sources */,
 				22819C9A249156B500DC8AB1 /* MasterViewController.swift in Sources */,
 				22819C9C249156B500DC8AB1 /* DetailViewController.swift in Sources */,
 				22819CC824916BAB00DC8AB1 /* Prompt.swift in Sources */,

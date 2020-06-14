@@ -36,6 +36,7 @@ class MasterViewController: UITableViewController {
     @objc
     func insertNewObject(_ sender: Any) {
         
+        /*
         let newPrompt = Prompt("Name \(count)", "Description of prompt no \(count)")
         
         count += 1
@@ -43,6 +44,8 @@ class MasterViewController: UITableViewController {
         objects.insert(newPrompt, at: 0)
         let indexPath = IndexPath(row: 0, section: 0)
         tableView.insertRows(at: [indexPath], with: .automatic)
+         */
+        performSegue(withIdentifier: "showAddPrompt", sender: self)
     }
 
     // MARK: - Segues
